@@ -9,6 +9,6 @@ let vapidKeys = {
   privateKey: 'cta1wIIeqmLjESmnolE8rWFOiyfImoFZCSOvr5z51MI'
 }
 
-let sub = { "endpoint": "https://fcm.googleapis.com/fcm/send/ed7fpdkyBiY:APA91bHWSCwd-haQXqRLcWC43O8pz0cGMg9EOM-K5c8WyDsbg65BeovL-MUKysmcZ-RdOoUSiOyCCYjKusHmsgzHXYufze0b0df9zP8o28SDEebqMkabcXonXVoRJjgKqfONRjQ35-Sw", "expirationTime": null, "keys": { "p256dh": "BB38EgHR2FdcAjDRbWNxupQxtc-uRZngsUpLU8I_HiX-Yy01EmkR-mRzYgAE29SnsiyzDgIxGoAvQlOSbeA5MvQ", "auth": "Sm1YXrHLtjLJEzn1oMMUiw" } };
+let sub = { "endpoint": "https://fcm.googleapis.com/fcm/send/dTKr0MKjhc4:APA91bGyHa1W74pk76_bolGkDfC9JiammoXZ5jgd3N9k_xODDGmPSkvuk1_8PQbrFkEg0AVM47WkloV0e5eEkuPKgcM5e21YGRcP6r2EBQsTcpjfJ3-Yb7xfhuYIJsMgcVeCA2Ei-m4l", "expirationTime": null, "keys": { "p256dh": "BJnxjgNsWAjg_MbLIcgh0KX-gAV8UTgdZRM60CK9a3fzauKp-CuBx9c85Kw1pTPsgGI3RPQYzqqxpCrfJ8Qyr94", "auth": "-BJeMTs7Tvi48Nh_yXC6MQ" } };
 push.setVapidDetails('mailto::test@code.co.uk', vapidKeys.publicKey, vapidKeys.privateKey);
 push.sendNotification(sub,'test message');
